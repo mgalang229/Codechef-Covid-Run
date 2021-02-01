@@ -14,7 +14,7 @@ int main() {
   	int pos = x;
   	while (true) {
   		if (pos == y) {
-				// check if the covid's positon is equal to your position
+			// check if the covid's positon is equal to your position
   			cout << "YES\n";
   			break;
   		} else if ((pos + k) % n == x) {
