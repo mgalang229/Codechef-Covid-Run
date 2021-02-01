@@ -19,8 +19,8 @@ int main() {
   			break;
   		} else if ((pos + k) % n == x) {
   			// check if the covid's position only goes back to itself
-        cout << "NO\n";
-        break;
+			cout << "NO\n";
+			break;
   		} else {
   			// calculate the position of covid's jump
   			pos = (pos + k) % n;
